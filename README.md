@@ -107,7 +107,7 @@ Error Handling & Security:
 Both backend and frontend implement error handling and validation. The API returns proper HTTP status codes, and error messages are handled gracefully in the UI. CORS is configured to allow the frontend to communicate with the backend.
 
 Additional Features
-Bonus (Search & Filtering):
+Search & Filtering:
 The blog list view includes a search feature that filters posts in real time.
 
 Routing:
