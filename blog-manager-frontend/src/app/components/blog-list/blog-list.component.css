@@ -1,0 +1,64 @@
+.container {
+    padding: 1rem;
+  }
+  
+  /* Styling for the search input */
+  .search-input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .post-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .post-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    width: calc(33% - 1rem);
+    cursor: pointer;
+    transition: box-shadow 0.2s;
+    position: relative;
+  }
+  
+  .post-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .actions {
+    margin-top: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .actions button {
+    padding: 0.3rem 0.6rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .actions button:hover {
+    opacity: 0.8;
+  }
+  
+  .actions button:first-child {
+    background-color: #28a745; /* Green for Edit */
+    color: white;
+  }
+  
+  .actions button:last-child {
+    background-color: #dc3545; /* Red for Delete */
+    color: white;
+  }
+  
+  .error {
+    color: red;
+  }
+  

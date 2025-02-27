@@ -1,0 +1,45 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+dist/
+tmp/
+out-tsc/
+
+# Angular specific files
+.angular/
+.idea/
+.vscode/
+.DS_Store
+
+# Environment files
+src/environments/environment*.ts
+
+# IDE/Editor files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Compiled files
+*.o
+*.obj
+*.class
+*.DS_Store
+
+# Generated files
+coverage/
+*.seed
+*.lock
+package-lock.json
+yarn.lock
+
+# Mac and Linux
+*.swp
+*~

@@ -1,0 +1,15 @@
+<div class="container" *ngIf="post; else loadingOrError">
+    <h1>{{ post.title }}</h1>
+    <p>{{ post.content }}</p>
+    <p><small>Created: {{ post.createdAt }}</small></p>
+    <p><small>Last updated: {{ post.updatedAt }}</small></p>
+    <button (click)="editPost()">Edit</button>
+    <button (click)="deletePost()">Delete</button>
+    <button (click)="goBack()">Back</button>
+  </div>
+  
+  <ng-template #loadingOrError>
+    <div *ngIf="loading">Loading post...</div>
+    <div *ngIf="error" class="error">{{ error }}</div>
+  </ng-template>
+  

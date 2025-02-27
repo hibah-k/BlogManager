@@ -1,0 +1,12 @@
+.container {
+    padding: 1rem;
+  }
+  
+  button {
+    margin-right: 1rem;
+  }
+  
+  .error {
+    color: red;
+  }
+  

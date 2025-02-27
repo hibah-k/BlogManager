@@ -1,0 +1,16 @@
+<div class="container">
+    <h1>{{ isEditMode ? 'Edit Post' : 'New Post' }}</h1>
+    <form (ngSubmit)="onSubmit()">
+      <div>
+        <label>Title:</label>
+        <input type="text" [(ngModel)]="post.title" name="title" required maxlength="100">
+      </div>
+      <div>
+        <label>Content:</label>
+        <textarea [(ngModel)]="post.content" name="content" required></textarea>
+      </div>
+      <button type="submit">{{ isEditMode ? 'Update' : 'Create' }} Post</button>
+    </form>
+    <div *ngIf="error" class="error">{{ error }}</div>
+  </div>
+  
