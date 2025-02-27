@@ -1,10 +1,4 @@
 C:\Users\SD349584\source\repos\BlogPostManager\obj\Debug\net8.0\BlogPostManager.csproj.AssemblyReference.cache
-C:\Users\SD349584\source\repos\BlogPostManager\bin\Debug\net8.0\blog-manager-frontend\angular.json
-C:\Users\SD349584\source\repos\BlogPostManager\bin\Debug\net8.0\blog-manager-frontend\package-lock.json
-C:\Users\SD349584\source\repos\BlogPostManager\bin\Debug\net8.0\blog-manager-frontend\package.json
-C:\Users\SD349584\source\repos\BlogPostManager\bin\Debug\net8.0\blog-manager-frontend\tsconfig.app.json
-C:\Users\SD349584\source\repos\BlogPostManager\bin\Debug\net8.0\blog-manager-frontend\tsconfig.json
-C:\Users\SD349584\source\repos\BlogPostManager\bin\Debug\net8.0\blog-manager-frontend\tsconfig.spec.json
 C:\Users\SD349584\source\repos\BlogPostManager\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\SD349584\source\repos\BlogPostManager\bin\Debug\net8.0\appsettings.json
 C:\Users\SD349584\source\repos\BlogPostManager\bin\Debug\net8.0\BlogPostManager.exe
@@ -173,3 +167,4 @@ C:\Users\SD349584\source\repos\BlogPostManager\obj\Debug\net8.0\refint\BlogPostM
 C:\Users\SD349584\source\repos\BlogPostManager\obj\Debug\net8.0\BlogPostManager.pdb
 C:\Users\SD349584\source\repos\BlogPostManager\obj\Debug\net8.0\BlogPostManager.genruntimeconfig.cache
 C:\Users\SD349584\source\repos\BlogPostManager\obj\Debug\net8.0\ref\BlogPostManager.dll
+C:\Users\SD349584\source\repos\BlogPostManager\obj\Debug\net8.0\BlogPostManager.sourcelink.json
